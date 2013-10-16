@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DFE6F3180C4467004BE3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE6F2180C4467004BE3D1 /* Foundation.framework */; };
+		66DFE6F5180C4467004BE3D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE6F4180C4467004BE3D1 /* CoreGraphics.framework */; };
+		66DFE6F7180C4467004BE3D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE6F6180C4467004BE3D1 /* UIKit.framework */; };
+		66DFE6FD180C4467004BE3D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DFE6FB180C4467004BE3D1 /* InfoPlist.strings */; };
+		66DFE6FF180C4467004BE3D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFE6FE180C4467004BE3D1 /* main.m */; };
+		66DFE703180C4467004BE3D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFE702180C4467004BE3D1 /* AppDelegate.m */; };
+		66DFE706180C4467004BE3D1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DFE704180C4467004BE3D1 /* Main_iPhone.storyboard */; };
+		66DFE709180C4467004BE3D1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DFE707180C4467004BE3D1 /* Main_iPad.storyboard */; };
+		66DFE70C180C4467004BE3D1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66DFE70B180C4467004BE3D1 /* ViewController.mm */; };
+		66DFE70E180C4467004BE3D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DFE70D180C4467004BE3D1 /* Images.xcassets */; };
+		66DFE715180C4467004BE3D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE714180C4467004BE3D1 /* XCTest.framework */; };
+		66DFE716180C4467004BE3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE6F2180C4467004BE3D1 /* Foundation.framework */; };
+		66DFE717180C4467004BE3D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE6F6180C4467004BE3D1 /* UIKit.framework */; };
+		66DFE71F180C4467004BE3D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DFE71D180C4467004BE3D1 /* InfoPlist.strings */; };
+		66DFE721180C4467004BE3D1 /* CaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFE720180C4467004BE3D1 /* CaculatorTests.m */; };
+		66DFE7B6180C5238004BE3D1 /* libCaculatorLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE7B5180C5238004BE3D1 /* libCaculatorLib.a */; };
+		66E98355180E9C420081C5F7 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E98353180E9C420081C5F7 /* test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DFE718180C4467004BE3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DFE6E7180C4467004BE3D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DFE6EE180C4467004BE3D1;
+			remoteInfo = Caculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66DFE6EF180C4467004BE3D1 /* Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DFE6F2180C4467004BE3D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66DFE6F4180C4467004BE3D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66DFE6F6180C4467004BE3D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66DFE6FA180C4467004BE3D1 /* Caculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caculator-Info.plist"; sourceTree = "<group>"; };
+		66DFE6FC180C4467004BE3D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66DFE6FE180C4467004BE3D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66DFE700180C4467004BE3D1 /* Caculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caculator-Prefix.pch"; sourceTree = "<group>"; };
+		66DFE701180C4467004BE3D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66DFE702180C4467004BE3D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66DFE705180C4467004BE3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		66DFE708180C4467004BE3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		66DFE70A180C4467004BE3D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66DFE70B180C4467004BE3D1 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		66DFE70D180C4467004BE3D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66DFE713180C4467004BE3D1 /* CaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DFE714180C4467004BE3D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66DFE71C180C4467004BE3D1 /* CaculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaculatorTests-Info.plist"; sourceTree = "<group>"; };
+		66DFE71E180C4467004BE3D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66DFE720180C4467004BE3D1 /* CaculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorTests.m; sourceTree = "<group>"; };
+		66DFE7B5180C5238004BE3D1 /* libCaculatorLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCaculatorLib.a; path = "../CaculatorLib/build/Debug-iphoneos/libCaculatorLib.a"; sourceTree = "<group>"; };
+		66E98353180E9C420081C5F7 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		66E98354180E9C420081C5F7 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DFE6EC180C4467004BE3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFE7B6180C5238004BE3D1 /* libCaculatorLib.a in Frameworks */,
+				66DFE6F5180C4467004BE3D1 /* CoreGraphics.framework in Frameworks */,
+				66DFE6F7180C4467004BE3D1 /* UIKit.framework in Frameworks */,
+				66DFE6F3180C4467004BE3D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DFE710180C4467004BE3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFE715180C4467004BE3D1 /* XCTest.framework in Frameworks */,
+				66DFE717180C4467004BE3D1 /* UIKit.framework in Frameworks */,
+				66DFE716180C4467004BE3D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DFE6E6180C4467004BE3D1 = {
+			isa = PBXGroup;
+			children = (
+				66DFE6F8180C4467004BE3D1 /* Caculator */,
+				66DFE71A180C4467004BE3D1 /* CaculatorTests */,
+				66DFE6F1180C4467004BE3D1 /* Frameworks */,
+				66DFE6F0180C4467004BE3D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DFE6F0180C4467004BE3D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DFE6EF180C4467004BE3D1 /* Caculator.app */,
+				66DFE713180C4467004BE3D1 /* CaculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DFE6F1180C4467004BE3D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DFE7B5180C5238004BE3D1 /* libCaculatorLib.a */,
+				66DFE6F2180C4467004BE3D1 /* Foundation.framework */,
+				66DFE6F4180C4467004BE3D1 /* CoreGraphics.framework */,
+				66DFE6F6180C4467004BE3D1 /* UIKit.framework */,
+				66DFE714180C4467004BE3D1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66DFE6F8180C4467004BE3D1 /* Caculator */ = {
+			isa = PBXGroup;
+			children = (
+				66DFE701180C4467004BE3D1 /* AppDelegate.h */,
+				66DFE702180C4467004BE3D1 /* AppDelegate.m */,
+				66DFE704180C4467004BE3D1 /* Main_iPhone.storyboard */,
+				66DFE707180C4467004BE3D1 /* Main_iPad.storyboard */,
+				66DFE70A180C4467004BE3D1 /* ViewController.h */,
+				66DFE70B180C4467004BE3D1 /* ViewController.mm */,
+				66E98353180E9C420081C5F7 /* test.cpp */,
+				66E98354180E9C420081C5F7 /* test.h */,
+				66DFE70D180C4467004BE3D1 /* Images.xcassets */,
+				66DFE6F9180C4467004BE3D1 /* Supporting Files */,
+			);
+			path = Caculator;
+			sourceTree = "<group>";
+		};
+		66DFE6F9180C4467004BE3D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DFE6FA180C4467004BE3D1 /* Caculator-Info.plist */,
+				66DFE6FB180C4467004BE3D1 /* InfoPlist.strings */,
+				66DFE6FE180C4467004BE3D1 /* main.m */,
+				66DFE700180C4467004BE3D1 /* Caculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66DFE71A180C4467004BE3D1 /* CaculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				66DFE720180C4467004BE3D1 /* CaculatorTests.m */,
+				66DFE71B180C4467004BE3D1 /* Supporting Files */,
+			);
+			path = CaculatorTests;
+			sourceTree = "<group>";
+		};
+		66DFE71B180C4467004BE3D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DFE71C180C4467004BE3D1 /* CaculatorTests-Info.plist */,
+				66DFE71D180C4467004BE3D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DFE6EE180C4467004BE3D1 /* Caculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DFE724180C4467004BE3D1 /* Build configuration list for PBXNativeTarget "Caculator" */;
+			buildPhases = (
+				66DFE6EB180C4467004BE3D1 /* Sources */,
+				66DFE6EC180C4467004BE3D1 /* Frameworks */,
+				66DFE6ED180C4467004BE3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caculator;
+			productName = Caculator;
+			productReference = 66DFE6EF180C4467004BE3D1 /* Caculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66DFE712180C4467004BE3D1 /* CaculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DFE727180C4467004BE3D1 /* Build configuration list for PBXNativeTarget "CaculatorTests" */;
+			buildPhases = (
+				66DFE70F180C4467004BE3D1 /* Sources */,
+				66DFE710180C4467004BE3D1 /* Frameworks */,
+				66DFE711180C4467004BE3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DFE719180C4467004BE3D1 /* PBXTargetDependency */,
+			);
+			name = CaculatorTests;
+			productName = CaculatorTests;
+			productReference = 66DFE713180C4467004BE3D1 /* CaculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DFE6E7180C4467004BE3D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Huy;
+				TargetAttributes = {
+					66DFE712180C4467004BE3D1 = {
+						TestTargetID = 66DFE6EE180C4467004BE3D1;
+					};
+				};
+			};
+			buildConfigurationList = 66DFE6EA180C4467004BE3D1 /* Build configuration list for PBXProject "Caculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66DFE6E6180C4467004BE3D1;
+			productRefGroup = 66DFE6F0180C4467004BE3D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DFE6EE180C4467004BE3D1 /* Caculator */,
+				66DFE712180C4467004BE3D1 /* CaculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DFE6ED180C4467004BE3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFE709180C4467004BE3D1 /* Main_iPad.storyboard in Resources */,
+				66DFE70E180C4467004BE3D1 /* Images.xcassets in Resources */,
+				66DFE706180C4467004BE3D1 /* Main_iPhone.storyboard in Resources */,
+				66DFE6FD180C4467004BE3D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DFE711180C4467004BE3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFE71F180C4467004BE3D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DFE6EB180C4467004BE3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFE70C180C4467004BE3D1 /* ViewController.mm in Sources */,
+				66E98355180E9C420081C5F7 /* test.cpp in Sources */,
+				66DFE703180C4467004BE3D1 /* AppDelegate.m in Sources */,
+				66DFE6FF180C4467004BE3D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DFE70F180C4467004BE3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFE721180C4467004BE3D1 /* CaculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66DFE719180C4467004BE3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DFE6EE180C4467004BE3D1 /* Caculator */;
+			targetProxy = 66DFE718180C4467004BE3D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66DFE6FB180C4467004BE3D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFE6FC180C4467004BE3D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66DFE704180C4467004BE3D1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFE705180C4467004BE3D1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		66DFE707180C4467004BE3D1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFE708180C4467004BE3D1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		66DFE71D180C4467004BE3D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFE71E180C4467004BE3D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66DFE722180C4467004BE3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DFE723180C4467004BE3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66DFE725180C4467004BE3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
+				INFOPLIST_FILE = "Caculator/Caculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66DFE726180C4467004BE3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
+				INFOPLIST_FILE = "Caculator/Caculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66DFE728180C4467004BE3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caculator.app/Caculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaculatorTests/CaculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66DFE729180C4467004BE3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caculator.app/Caculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
+				INFOPLIST_FILE = "CaculatorTests/CaculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DFE6EA180C4467004BE3D1 /* Build configuration list for PBXProject "Caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DFE722180C4467004BE3D1 /* Debug */,
+				66DFE723180C4467004BE3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DFE724180C4467004BE3D1 /* Build configuration list for PBXNativeTarget "Caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DFE725180C4467004BE3D1 /* Debug */,
+				66DFE726180C4467004BE3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DFE727180C4467004BE3D1 /* Build configuration list for PBXNativeTarget "CaculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DFE728180C4467004BE3D1 /* Debug */,
+				66DFE729180C4467004BE3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DFE6E7180C4467004BE3D1 /* Project object */;
+}
